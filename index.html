@@ -130,6 +130,21 @@
                 <label for="favoriteColor">Cor Favorita:</label>
                 <input type="color" name="userFavoriteColor" id="favoriteColor">
             </fieldset>
+            <fieldset>
+                <legend>Avaliação Serviço</legend>
+                <label for="avaliaao">Sua Avaliação é Muito Importante:</label> <br>
+                <input id="excellent" type="radio" name="userOpinion" value="Ótima">
+                <label for="excellent">Ótima</label>
+                <input id="good" type="radio" name="userOpinion" value="Boa">
+                <label for="good">Boa</label>
+                <input id="regular" type="radio" name="userOpinion" value="Regular">
+                <label for="regular">Regular</label>
+                <input id="ban" type="radio" name="userOpinion" value="Ruim">
+                <label for="ban">Ruim</label>
+                <br>
+                <label for="mensagem">Deixe sua Mensagem:</label><br>
+                <textarea id="mensagem" name="userMensagem" cols="40" placeholder="Digite aqui sua opinião ..."></textarea>
+            </fieldset>
 
             <button type="submit">Enviar</button>
         </form>
