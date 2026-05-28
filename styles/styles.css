@@ -1,45 +1,73 @@
-*{
+* {
     margin: 0;
-    padding: 0;box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;
 
 }
-body{
+
+body {
     font-family: "Work Sans", sans-serif;
     background-color: antiquewhite;
 }
-main{
+
+main {
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
 }
 
-header{
+header {
     text-align: center;
     margin-bottom: 20px;
 }
 
-img{
+img {
     width: 100px;
 }
 
-.titulo-principal{
-     font-family: "Fjalla One", sans-serif;
+.titulo-principal {
+    font-family: "Fjalla One", sans-serif;
 }
 
-form{
+form {
     background-color: white;
     padding: 15px;
     border-radius: 12px;
 }
-fieldset{
+
+fieldset {
     padding: 15px;
-    border: 2px solid #7f8c8d ;
+    border: 2px solid #7f8c8d;
     border-radius: 7px;
     margin-bottom: 15px;
 }
 
-legend{
+legend {
     font-weight: bold;
     font-size: 18px;
+    padding: 0 5px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #7f8c8d;
+    border-radius: 7px;
+    border-radius: 7px;
+}
+
+textarea{
+    min-height: 100px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: auto;
+}
+
+input[type="color"]{
+    width: 50px;
     padding: 0 5px;
 }
