@@ -33,6 +33,7 @@ form {
     background-color: white;
     padding: 15px;
     border-radius: 12px;
+    margin-bottom: 100px;
 }
 
 fieldset {
@@ -40,6 +41,16 @@ fieldset {
     border: 2px solid #7f8c8d;
     border-radius: 7px;
     margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+p{
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 legend {
@@ -56,18 +67,45 @@ textarea {
     margin-bottom: 20px;
     border: 2px solid #7f8c8d;
     border-radius: 7px;
-    border-radius: 7px;
 }
 
-textarea{
+textarea {
     min-height: 100px;
 }
 
-input[type="radio"], input[type="checkbox"]{
+input[type="radio"],
+input[type="checkbox"] {
     width: auto;
 }
 
-input[type="color"]{
+input[type="color"] {
     width: 50px;
     padding: 0 7px;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+    border-color: aquamarine;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: white;
+    border: 2px solid #7f8c8d;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
 }
